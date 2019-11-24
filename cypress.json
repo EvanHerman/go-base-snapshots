@@ -1,0 +1,13 @@
+{
+	"video": false,
+	"viewportWidth": 1440,
+	"viewportHeight": 900,
+	"chromeWebSecurity": false,
+	"integrationFolder": ".dev/cypress/integration",
+	"testFiles": "**/*.spec.js",
+	"supportFile": ".dev/cypress/support/commands.js",
+	"fixturesFolder": ".dev/cypress/fixtures",
+	"pluginsFile": ".dev/cypress/plugins/index.js",
+	"screenshotsFolder": ".dev/cypress/screenshots",
+	"trashAssetsBeforeRuns": false
+}

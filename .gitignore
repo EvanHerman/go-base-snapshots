@@ -1,0 +1,4 @@
+node_modules
+
+# Cypress
+.dev/cypress/screenshots/

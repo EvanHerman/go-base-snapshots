@@ -1,0 +1,24 @@
+{
+  "name": "go-theme-base-snapshots",
+  "version": "1.0.0",
+  "description": "Snapshots of each Go template from https://wpnux.godaddy.com/v2/",
+  "homepage": "https://github.com/godaddy-wordpress/go-snapshots",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/godaddy-wordpress/go-snapshots",
+    "base": "godaddy-wordpress/go"
+  },
+  "author": {
+    "name": "GoDaddy",
+    "url": "https://www.godaddy.com",
+    "role": "Developer"
+  },
+  "scripts": {
+    "update-snapshots": "./node_modules/.bin/cypress run --browser chrome --spec '.dev/cypress/integration/update-base-screenshots.spec.js'"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^3.6.1",
+    "rmdir": "^1.2.0"
+  }
+}
